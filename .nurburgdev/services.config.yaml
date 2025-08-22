@@ -1,0 +1,25 @@
+# Services Configuration for Implement an API ratelimiter in Nodejs
+# Generated service configuration
+name: jsapithrottler
+directory: .
+cpuCores: 1
+memoryMB: 512
+instances: 1
+port: 3000
+runtime: nodejs
+env:
+    NODE_ENV: "production"
+    PORT: 3000
+---
+
+name: servicea
+directory: service-a
+port: 7000
+runtime: nodejs
+
+---
+
+name: serviceb
+directory: service-b
+port: 7001
+runtime: nodejs

@@ -1,0 +1,4 @@
+
+runtimeInMinutes: 15
+env:
+    HOST: jsapithrottler:3000

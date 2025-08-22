@@ -1,0 +1,25 @@
+# API Tests for Implement an API ratelimiter in Nodejs
+# Generated Tavern test configuration
+
+
+
+---
+test_name: Test rate limitter
+
+stages:
+  - name: ANY request to service-a
+    request:
+      url: http://jsapithrottler:3000/api/a/test
+      method: POST
+    response:
+      status_code: 
+        - 200
+  - name: ANY request to service-b
+    request:
+      url: http://jsapithrottler:3000/api/b/test
+      method: POST
+    response:
+      status_code: 
+        - 200
+      
+
