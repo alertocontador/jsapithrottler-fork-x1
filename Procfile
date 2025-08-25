@@ -1,1 +1,1 @@
-web: npm install && npm run build && node dist/app.js
+web: NODE_ENV=development npm install && npm run build && node dist/app.js
