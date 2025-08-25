@@ -4,7 +4,7 @@
   "description": "Ratelimitter are middlewares which disallow api access to an enpoint if the number of API requests cross a certain number per minute. In this assignment you will be implementing an API ratelimiter in nodejs.",
   "main": "dist/app.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "npx typescript",
     "start": "node dist/app.js",
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
   },
